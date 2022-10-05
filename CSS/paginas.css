@@ -1,0 +1,211 @@
+body,
+ul,
+li,
+p {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.2rem;
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
+
+body {
+    background: linear-gradient(rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)), url('../image/hope.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+
+/*----------COMEÇA O NOSSO HEADER---------------*/
+
+.header {
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+    border-bottom: 1px solid white;
+
+}
+
+.header .logo {
+    border-radius: 7px;
+    background-color: transparent;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu li {
+    padding: 10px;
+}
+
+.menu li a {
+    display: block;
+    padding: 10px;
+}
+
+/*----------TERMINA O NOSSO HEADER---------------*/
+
+
+
+
+
+
+
+
+/*----------COMEÇA O NOSSO MAIN---------------*/
+
+/*----------TERMINA O NOSSO MAIN---------------*/
+
+
+
+
+
+
+
+/*----------COMEÇA O NOSSO FOOTER---------------*/
+
+footer {
+    background-color: transparent;
+    padding: 50px 0;
+    border-top: 1px solid white;
+}
+
+.container-footer {
+    max-width: 1400px;
+    padding: 0 4%;
+    margin: auto;
+}
+
+.row-footer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-col {
+    width: 20%;
+    padding: 0 15px;
+}
+
+.footer-col h4 {
+    font-size: 22px;
+    color: white;
+    margin-bottom: 20px;
+    font-weight: 500;
+    position: relative;
+    text-transform: uppercase;
+}
+
+.footer-col ul li {
+    margin: 10px 0;
+}
+
+.footer-col ul li a {
+    font-size: 16px;
+    text-transform: capitalize;
+    font-weight: 300;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+.footer-col ul li a:hover {
+    color: white;
+    padding-left: 10px;
+}
+
+.footer-col .social {
+    margin-top: 20px;
+
+}
+
+.footer-col .social a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+    margin: 0 10px 10px 0;
+    text-decoration: none;
+    border-radius: 50%;
+    color: white;
+    border: 1px solid white;
+    transition: all 0.5s ease;
+
+}
+
+.footer-col .social a i {
+    font-size: 20px;
+
+}
+
+.footer-col .social a:hover {
+    font-size: 25px;
+
+
+}
+
+.footer-col .form-sub input {
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    outline: none;
+    border: 1px solid white;
+    color: white;
+    background-color: transparent;
+}
+
+.footer-col .form-sub input::placeholder {
+    color: white;
+}
+
+.footer-col .form-sub button {
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 17px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    color: white;
+    border-radius: 3px;
+    border: 1px solid white;
+    font-weight: bold;
+    background-color: transparent;
+}
+
+.footer-col .form-sub button:hover {
+    font-size: 20px;
+    transition: 0.5s ease-in-out;
+
+}
+
+@media (max-width:800px) {
+    .footer-col {
+        width: 50%;
+        margin-bottom: 30px;
+    }
+
+}
+
+@media (max-width:600px) {
+    .footer-col {
+        width: 100%;
+    }
+}

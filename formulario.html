@@ -7,8 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/CSS/formulario.css">
     <link rel="stylesheet" href="CSS/paginas.css">
-    <title>Contato</title>
+    <title>formulario</title>
 </head>
 
 <body>
@@ -47,49 +48,83 @@
 
             <div class="div1">
 
-                <h2 class="titlo2">Nossos Contatos</h2>
+                <h2 class="titlo2">Cadastra-se para o nosso programa</h2>
+
+
+                <!------------------ NOSSO FORMULARIO    --------------------------------------->
 
 
 
-                <div class="barra1">
+                <div class="barra3">
 
-                    <div class="text3">
-                        <h2 class="tttu2">Visita-nos em nossas redes socias</h2>
-
-                        <p> Entra em contato conosco, para assim saberes mais sobre os nossos preojetos, e a as visões
-                            que temos para uma Angola melhor, entendo que os jovens são os grandes impulsionadores deste
-                            projeto.
-                        </p>
-
-
-                        <div class="links">
-
-
-                            <a href="https://www.facebook.com/profile.php?id=100085083557654" target="_blank"> Facebook
-                                <i class="fa fa-facebook"></i></a>
-                            <a href="https://www.instagram.com/" target="_blank">Instagram <i
-                                    class="fa fa-instagram"></i></a>
-                            <a href="">Twitter <i class="fa fa-twitter"></i></a>
-
-                            <div class="ln">
-                                <p>alsiziosiabala1@gmail.com <i class="fa-regular fa-envelope"></i></p>
-
+                    <form action="#" method="post">
+                        <fieldset>
+                            <fieldset class="grupo">
+                                <div class="campo">
+                                    <label for="nome">Nome</label>
+                                    <input type="text" id="nome" name="nome" style="width: 10em" value="">
+                                </div>
+                                <div class="campo">
+                                    <label for="snome">Sobrenome</label>
+                                    <input type="text" id="snome" name="snome" style="width: 10em" value="">
+                                </div>
+                            </fieldset>
+                            <div class="campo">
+                                <label>Sexo</label>
+                                <label>
+                                    <input type="radio" name="sexo" value="masculino"> Masculino
+                                </label>
+                                <label>
+                                    <input type="radio" name="sexo" value="feminino"> Feminino
+                                </label>
+                            </div>
+                            <div class="campo">
+                                <label for="email">E-mail</label>
+                                <input type="text" id="email" name="email" style="width: 20em" value="">
+                            </div>
+                            <div class="campo">
+                                <label for="telefone">Telefone</label>
+                                <input type="text" id="telefone" name="telefone" style="width: 10em" value="">
                             </div>
 
+                            <fieldset class="grupo">
+                                <div class="campo">
+                                    <label for="cidade">Cidade</label>
+                                    <input type="text" id="cidade" name="cidade" style="width: 10em" value="">
+                                </div>
+                                <div class="campo">
+                                    <label for="estado">Provincia</label>
+                                    <select name="estado" id="estado">
+                                        <option value="">--</option>
+                                        <option value="PR">PR</option>
+                                    </select>
+                                </div>
+                            </fieldset>
 
+                            <div class="campo">
+                                <label for="mensagem">Mensagem</label>
+                                <textarea rows="6" style="width: 20em" id="mensagem" name="mensagem"></textarea>
+                            </div>
 
+                            <div class="campo">
+                                <label>Newsletter</label>
+                                <label>
+                                    <input type="checkbox" name="newsletter" value="1"> Gostaria de receber a Newsletter
+                                    da
+                                    empresa
+                                </label>
+                            </div>
 
+                            <button type="submit" name="submit">Enviar</button>
+                        </fieldset>
+                    </form>
 
-
-
-                        </div>
-
-
-                    </div>
 
 
 
                 </div>
+
+            </div>
 
             </div>
 
